@@ -17,8 +17,8 @@ body {
   align-items: center;
   flex-direction: column;
   background: url('./joke.gif');
-  background-size: auto;
-  background-position: left center;
+  background-size: 50%;
+  background-position: left 20% top 50%;
   background-repeat: no-repeat;
 }
 
@@ -53,7 +53,7 @@ button:disabled{
 @media screen and (max-width: 1000px){
   .container{
     background-position: center center;
-    background-size: cover;
+    background-size: auto;
   }
 
   .button{
